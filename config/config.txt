@@ -188,10 +188,10 @@ LANGUAGE En
 WIKIURL https://wiki.cev-eris.com/Main_Page
 
 ## Ban appeals URL - usually for a forum or wherever people should go to contact your admins.
-# BANAPPEALS http://example.com
+BANAPPEALS https://discord.gg/XYPBjk4rdR
 
 ##Github address
-GITHUBURL https://github.com/Endless-Horizon/CEV-Eris
+GITHUBURL https://github.com/Wheatley2013/CEV-Eris
 
 ## In-game features
 ## spawns a spellbook which gives object-type spells instead of verb-type spells for the wizard
