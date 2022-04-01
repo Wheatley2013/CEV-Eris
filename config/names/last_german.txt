@@ -45,8 +45,12 @@ Gutmann
 Gott
 Gustke
 Guttenberg
+Himmler
+Hindenburg
+Hitler
 Hoffmann
 Herrmann
+Hess
 Ibrahim
 Jaeger
 Jacobi
@@ -115,7 +119,11 @@ Reinhardt
 Reuter
 Reuss
 Riegler
+Richtgofen
+Rommel
+Rudel
 Rummel
+Sauer
 Sauermann
 Schaub
 Schwerdtfeger
@@ -128,6 +136,7 @@ Strecher
 Strobel
 Struckmann
 Strunk
+Schwarz
 Teichmann
 Thiele
 Thomsen
@@ -139,10 +148,16 @@ Ulbrich
 Ulrich
 Umlauf
 Vogel
+von Bismarck
+von Himmler
+von Richtgofen
 von Schwalenberg
+von Stroheim
 Volz
+Weiss
 Zach
 Zander
 Zeilbeck
+Zimmer
 Zimmermann
 Zinsmeister
