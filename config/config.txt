@@ -10,10 +10,10 @@ ALERT_RED_DOWNTO The self-destruct mechanism has been deactivated, there is stil
 ALERT_DELTA The ship's self-destruct mechanism has been engaged. All crew are instructed to obey all instructions given by heads of staff. Any violations of these orders can be punished by death. This is not a drill.
 
 ## Add a # infront of this if you want to use the SQL based admin system, the legacy system uses admins.txt. You need to set up your database to use the SQL based system.
-#ADMIN_LEGACY_SYSTEM
+ADMIN_LEGACY_SYSTEM
 
 ## Add a # infront of this if you want to use the SQL based banning system. The legacy systems use the files in the data folder. You need to set up your database to use the SQL based system.
-#BAN_LEGACY_SYSTEM
+BAN_LEGACY_SYSTEM
 
 ## Enables the memo system for admins, used to log on each player
 ADMIN_MEMO_SYSTEM
@@ -33,7 +33,7 @@ JOBS_HAVE_MINIMAL_ACCESS
 #USE_AGE_RESTRICTION_FOR_ANTAGS
 
 ## Unhash this to use recursive explosions, keep it hashed to use circle explosions. Recursive explosions react to walls, airlocks and blast doors, making them look a lot cooler than the boring old circular explosions. They require more CPU and are (as of january 2013) experimental
-#USE_RECURSIVE_EXPLOSIONS
+USE_RECURSIVE_EXPLOSIONS
 
 ## log OOC channel
 LOG_OOC
@@ -163,7 +163,7 @@ ALLOW_AI
 # DONT_DEL_NEWMOB
 
 ## set a hosted by name for unix platforms
-HOSTEDBY yournamehere
+HOSTEDBY Wheatley2013
 
 ## Set to jobban "Guest-" accounts from Captain, HoS, HoP, CE, RD, CMO, Warden, Security, Detective, and AI positions.
 ## Set to 1 to jobban them from those positions, set to 0 to allow them.
@@ -176,16 +176,16 @@ GUEST_BAN
 # USEWHITELIST
 
 ## set a server location for world reboot. Don't include the byond://, just give the address and port.
-#SERVER server.net:port
+SERVER 93.100.165.170:2504
 
 ## Language being used for the server, deals with external links. Use either "En" for ENGLISH, or "Ru" for RUSSIAN. Do not capitalize the second letter.
-# LANGUAGE
+LANGUAGE En
 
 ## forum address
 # FORUMURL http://example.com
 
 ## Wiki address
-# WIKIURL http://example.com
+WIKIURL https://wiki.cev-eris.com/Main_Page
 
 ## Ban appeals URL - usually for a forum or wherever people should go to contact your admins.
 # BANAPPEALS http://example.com
@@ -210,7 +210,7 @@ GITHUBURL https://github.com/Endless-Horizon/CEV-Eris
 ## Remove the # to allow special 'Easter-egg' events on special holidays such as seasonal holidays and stuff like 'Talk Like a Pirate Day' :3 YAARRR
 ALLOW_HOLIDAYS
 ## Defines the FPS for the world. 30 is the normal one, 45+ is smoother.
-FPS 40
+FPS 60
 
 ## Defines if Tick Compensation is used.  It results in a minor slowdown of movement of all mobs, but attempts to result in a level movement speed across all ticks.  Recommended if tickrate is lowered.
 #TICKCOMP
@@ -346,7 +346,7 @@ IPR_MINIMUM_AGE 5
 
 ###### Antiraid Settings
 # Enable/disable 'paranoia logging' (notifying admins of new byond accounts joining, and player first-time joins)
-#PARANOIA_LOGGING
+PARANOIA_LOGGING
 
 # Enable/disable 'panic bunker' (prevents new players from joining if they've never been seen before in the DB)
 #PANIC_BUNKER
